@@ -5,7 +5,7 @@ import Viewer from './viewer';
 
 export default class App extends Component {
   render() {
-    const width = window.innerHeight;
+    const width = window.innerWidth;
 
     return (
       <SplitPane split="vertical" defaultSize={width}>
